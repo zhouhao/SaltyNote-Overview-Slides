@@ -59,46 +59,41 @@ Vue 2 + Bootstrap 4 + Webpack + Chrome Extension API
 # RESTful API
 ### 👉 Demo with Swagger UI
 
+---
 
+# Story (Backend)
+1. Auth framework with *Access Token* and *Refresh Token*
+2. Rate limit with Nginx (why not inside the service?)
+3. Cache with Redis (How schema change affects cache?)
+4. Anti-abuse of massive registration (verification Code)
+5. UUID vs Snowflake ID 
+   a. What is the problem with UUID?
+   b. Snowflake ID ends in 09/07/2023, how to fix it?
+6. Why migrated to MongoDB? (For `tags`)
 
 ---
 
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+<!-- _backgroundColor: "#123" -->
+<!-- _color: "#fff" -->
 
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
-
----
-
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
-
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+# Story (Extension)
+1. How it work? (Inject the UI in the host page)
+2. How to avoid css polluting the host page?
+3. How to refresh access token with refresh token?
+4. How to handle canvas only page, like Google Doc?
 
 ---
 
-![bg right 60%](https://icongr.am/simple/zeit.svg)
-
-## **[Vercel](https://vercel.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
-
+# Next Step
+1. Re-create the website with SPA
+2. Build the mobile app with flutter, maybe?
+3. Implement some pro features, e.g.
+   a. Unlimited note (free: 50 per day)
+   b. Create team to share notes
+   c. Dark theme support
+   d. ...
 ---
 
-### <!--fit--> :ok_hand:
-
----
-
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
-
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
-
-https://github.com/yhatt/marp-cli-example
+<!-- _backgroundColor: "#123" -->
+<!-- _color: "#fff" -->
+### Thank you! 👏
