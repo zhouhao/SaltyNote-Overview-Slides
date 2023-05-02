@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
+title: SaltyNote Overview
+description: 10000ft overview of SaltyNote
 theme: uncover
 transition: fade
 paginate: true
@@ -10,11 +10,11 @@ _paginate: false
 
 ![bg opacity](./assets/gradient.jpg)
 
-# <!--fit--> Marp CLI example
+# <!--fit--> SaltyNote Overview
 
-Hosting Marp slide deck on the web
+1000ft overview of SaltyNote
 
-https://github.com/yhatt/marp-cli-example
+https://github.com/SaltyNote
 
 <style scoped>a { color: #36c; }</style>
 
@@ -22,16 +22,44 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+![Service Architecture bg 80%](https://raw.githubusercontent.com/SaltyNote/saltynote-service/master/docs/images/overview.png)
+
+---
+
+![Chrome Extension Architecture bg 90%](./assets/chrome-extension-overview.png)
 
 ---
 
 <!-- _backgroundColor: "#123" -->
 <!-- _color: "#fff" -->
 
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
+# Tech Stack
+### Backend
+Java 17 + Spring Boot v3 + mongodb + redis
 
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
+(*Graalvm to generate native image*)
+### Extension
+Vue 2 + Bootstrap 4 + Webpack + Chrome Extension API
+
+
+---
+<!-- _backgroundColor: "#1e2022" -->
+<!-- _color: "#fff" -->
+
+# Schema (SQL)
+<br/>
+
+![Schema bg 80%](./assets/schema.png)
+
+---
+
+<!-- _backgroundColor: "#123" -->
+<!-- _color: "#fff" -->
+
+# RESTful API
+### 👉 Demo with Swagger UI
+
+
 
 ---
 
